@@ -1,6 +1,8 @@
-![prjectscreenshoot!](public/project_screenshoot/version-12_image1_home_page.png)
+![prjectscreenshoot!](public/project_screenshoot/version-13_image1_home_page.png)
 
-![prjectscreenshoot!](public/project_screenshoot/version-12_image2_home_page.png)
+![prjectscreenshoot!](public/project_screenshoot/version-13_image2_product_details_page.png)
+
+![prjectscreenshoot!](public/project_screenshoot/version-13_image3_cart_page.png)
 
 # Getting Started with Create React App
 
