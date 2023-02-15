@@ -58,30 +58,88 @@
 
 ## HOW TO RUN 'MERN_PROSHOP' `APP` ON YOUR LOCAL SERVER
 
-`https://docs.google.com/document/d/1BIq_PNnn4a0JZLYvBmdasQANedGOtMrPeyWr8Zx4GnM/edit?usp=sharing`
+```
+https://docs.google.com/document/d/1BIq_PNnn4a0JZLYvBmdasQANedGOtMrPeyWr8Zx4GnM/edit?usp=sharing
+```
 
-## TO RUN THE PROJECT LOCALLY
+## Usage
 
-IN THE PROJECT ROOT DIRECTORY, RUN:
+### ES Modules in Node
 
-### `npm run dev` [ It will run frontend and backend at a same time ]
+We use ECMAScript Modules in the backend in this project. Be sure to have at least Node v14.6+ or you will need to add the "--experimental-modules" flag.
 
-OPEN [http://localhost:3000/](http://localhost:3000/) TO VIEW `Home Page` IN YOUR BROWSER.
+Also, when importing a file (not a package), be sure to add .js at the end or you will get a "module not found" error
 
-##
+You can also install and setup Babel if you would like <br><br>
 
-IF YOU WANT TO RUN ONLY BACKEND
+### Env Variables
 
-IN THE PROJECT ROOT DIRECTORY, RUN:
+Create a .env file in then root and add the following
 
-### `npm run server` [ It will run only backend server ]
+```
+NODE_ENV = development
+PORT = 9000
+MONGO_URI = your mongodb uri
+JWT_SECRET = 'Your JWT Secret'
+PAYPAL_CLIENT_ID = your paypal client id
+```
 
-OPEN [http://localhost:9000/api/products](http://localhost:9000/api/products) TO VIEW BACKEND IN YOUR BROWSER.
+### Install Dependencies (frontend & backend)
 
-##
+```
+In the project root directory, Run :-
+npm install
+cd frontend
+npm install
+```
 
-IF YOU WANT TO RUN ONLY FRONTEND
+### Run
 
-IN THE PROJECT ROOT DIRECTORY, RUN:
+```
+# Run both frontend (http://localhost:3000) & backend (http://localhost:9000/api/products)
+In the project root directory, Run :-
+npm run dev
 
-### `npm run client` [ It will run only frontend server ]
+# If you want to run backend only, in the project root directory,
+Run :-
+npm run server
+
+# If you want to run frontend only, in the project root directory,
+Run :-
+npm run client
+```
+
+## Build & Deploy
+
+```
+# Create frontend prod build
+cd frontend
+npm run build
+```
+
+There is a Heroku postbuild script, so if you push to Heroku, no need to build manually for deployment to Heroku
+
+### Seed Database
+
+You can use the following commands to seed the database with some sample users and products as well as destroy all data
+
+```
+# Import data
+npm run data:import
+
+# Destroy data
+npm run data:destroy
+```
+
+```
+Sample User Logins
+
+admin@example.com (Admin)
+123456
+
+john@example.com (Customer)
+123456
+
+jane@example.com (Customer)
+123456
+```
