@@ -2,23 +2,27 @@
 
 `http://localhost:3000`
 
-![prjectscreenshoot!](frontend/public/project_screenshoot/version-14_image1_home_page.png)
+![prjectscreenshoot!](frontend/public/project_screenshoot/version-15_image1_home_page.png)
 
 `http://localhost:3000/product/63e3a82c56b348ae70521c9c`
 
-![prjectscreenshoot!](frontend/public/project_screenshoot/version-14_image2_product_details_page.png)
+![prjectscreenshoot!](frontend/public/project_screenshoot/version-15_image2_product_details_page.png)
 
 `http://localhost:3000/cart`
 
-![prjectscreenshoot!](frontend/public/project_screenshoot/version-14_image3_cart_page.png)
+![prjectscreenshoot!](frontend/public/project_screenshoot/version-15_image3_cart_page.png)
+
+`http://localhost:3000/profile`
+
+![prjectscreenshoot!](frontend/public/project_screenshoot/version-15_image4_profile_page.png)
 
 `http://localhost:9000/api/products`
 
-![prjectscreenshoot!](backend/data/project_screenshoot/version-14_image1_json_of_all_products.png)
+![prjectscreenshoot!](backend/data/project_screenshoot/version-15_image1_json_of_all_products.png)
 
 `http://localhost:9000/api/products/63e3a82c56b348ae70521c9c`
 
-![prjectscreenshoot!](backend/data/project_screenshoot/version-14_image2_json_of_single_product.png)
+![prjectscreenshoot!](backend/data/project_screenshoot/version-15_image2_json_of_single_product.png)
 
 `MongoDB+Compass+Image+proshop:products.png`
 
@@ -40,13 +44,17 @@
 
 ![prjectscreenshoot!](backend/data/project_screenshoot/others/Postman%2B%7B%7BURL%7D%7D%3Aapi%3Ausers%3Alogin.png)
 
-`Postman+{{URL}}:api:users:profile.png`
+`Postman+{{URL}}:api:users:profile(GET).png`
 
-![prjectscreenshoot!](backend/data/project_screenshoot/others/Postman%2B%7B%7BURL%7D%7D%3Aapi%3Ausers%3Aprofile.png)
+![prjectscreenshoot!](backend/data/project_screenshoot/others/Postman%2B%7B%7BURL%7D%7D%3Aapi%3Ausers%3Aprofile_GET.png)
 
 `Postman+{{URL}}:api:users.png`
 
 ![prjectscreenshoot!](backend/data/project_screenshoot/others/Postman%2B%7B%7BURL%7D%7D%3Aapi%3Ausers.png)
+
+`Postman+{{URL}}/api/users/profile(PUT).png`
+
+![prjectscreenshoot!](backend/data/project_screenshoot/others/Postman%2B%7B%7BURL%7D%7D%3Aapi%3Ausers%3Aprofile_PUT.png)
 
 `cloud.mongodb+collections+proshop+products.png`
 
